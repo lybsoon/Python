@@ -26,7 +26,7 @@ def checkCorrectPassword(password:str):
         -zapisywanie do pliku wyniku
 
     """
-    with open("password.txt", "w") as file:
+    with open("test.txt", "w") as file:
 
         if len(password)< 4 or len(password)>8:
             print("Haslo musi byc od 4 do 8 znakow!!!")
